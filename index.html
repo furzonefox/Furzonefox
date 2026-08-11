@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="global.css">
+        <link rel="stylesheet" href="main.css">
+        <link type="image/x-icon" rel="icon" href="https://furzonefox.github.io/Furzonefox/images/drawings/External/FleurFurr/FleurFurr_Soft-fox.png">
+        <title>FurZoneFox DropPage</title>
+    </head>
+    <body>
+        <div id="page">
+            <h1>Welcome</h1>
+            <p>This is the landing page of a small, self-driven project.</p>
+            <hr>
+            <p>To continue, please select your native language, or the one you understand the best:</p>
+            <select title="Choose a language..." id="languages" onchange="var lang = document.getElementById('languages').value
+            document.location.href = 'https:/' + '/furzonefox.github.io/Furzonefox/' + lang">
+                <option disabled selected hidden>Choose a language...</option>
+                <option value="hu">Hungarian - Magyar</option>
+                <option value="en">English - Angol</option>
+            </select>
+        </div>
+    </body>
+</html>

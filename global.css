@@ -1,0 +1,27 @@
+:root {
+    /* Root is made to access global variables for the website.
+    This is currently left empty as there are not specific things that need to be given or set to new files, but this may change later.
+    
+    Changing anything in the root directory could potentially "destroy" the website or make it insanely ugly and potentially unreadable.
+    Any contributor that changes the root without proper permission and makes the website to be unreadable will be removed.*/
+}
+
+#page {
+    background: linear-gradient(65deg, rgb(204, 138, 16), rgba(255, 41, 41, 0.799));
+    border-radius: 15px;
+    margin: 10px auto 0px auto;
+    min-width: 250px;
+    max-width: 700px;
+    padding: 5px 2px 10px 7px;
+}
+a[role="button"] {
+    border-radius: 5px;
+    border: 1px solid orange;
+    padding: 2px 5px 2px 5px;
+    background: radial-gradient(to left, orange, orangered);
+    color:white;
+    text-decoration: none;
+}
+body {
+    background-color: orangered; /* This is experimental and may change in the future */
+}

@@ -1,0 +1,13 @@
+select {
+    background-color: orange;
+    border-radius: 5px;
+    border: 1px dashed black;
+}
+select::picker {
+    background-color: orangered;
+    border: 1px solid black;
+    border-bottom: 2px dashed grey;
+}
+body {
+    color: white;
+}

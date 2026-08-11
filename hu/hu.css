@@ -1,0 +1,32 @@
+figure>figcaption {
+    font-size: 10px;
+    color: grey;
+    text-align: center;
+}
+
+figure>img {
+    width: 175px;
+    border-radius: 100px;
+    align-self: center;
+    margin: 5px 500px 3px 250px;
+}
+
+figure {
+    margin: 2px auto 5px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+p {
+    color: white;
+}
+
+p.note {
+    color: grey;
+    font-size: 8px;
+}
