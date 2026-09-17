@@ -1,9 +1,8 @@
 :root {
-    /* Root is made to access global variables for the website.
-    This is currently left empty as there are not specific things that need to be given or set to new files, but this may change later.
+    /* This root is basically useless as importing CSS files is not working.
+    This might just store useful variables to be used later on.
     
-    Changing anything in the root directory could potentially "destroy" the website or make it insanely ugly and potentially unreadable.
-    Any contributor that changes the root without proper permission and makes the website to be unreadable will be removed.*/
+    Until then, this will just be a blank space.*/
 }
 
 #page {
@@ -23,5 +22,5 @@ a[role="button"] {
     text-decoration: none;
 }
 body {
-    background-color: orangered; /* This is experimental and may change in the future */
+    background-color: linear-gradient(90deg, rgb(204, 138, 16) 20%, rgba(217, 82, 10, 0.799) 50%, rgb(204, 138, 16) 80%); /* This is experimental and may change in the future */
 }
