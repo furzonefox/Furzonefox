@@ -22,5 +22,15 @@ a[role="button"] {
     text-decoration: none;
 }
 body {
-    background-color: linear-gradient(90deg, rgb(204, 138, 16) 20%, rgba(217, 82, 10, 0.799) 50%, rgb(204, 138, 16) 80%); /* This is experimental and may change in the future */
+    background: linear-gradient(90deg, rgb(204, 138, 16) 20%, rgba(217, 82, 10, 0.799) 50%, rgb(204, 138, 16) 80%); /* This is experimental and may change in the future */
+}
+select[id$="-select"] {
+    border-radius: 15px;
+    background: linear-gradient(90deg, orange, orangered);
+    color: white;
+    border: 1px dashed white;
+}
+select[id$="-select"] > optgroup, select[id$="-select"] > optgroup > option {
+    color: white;
+    background-color: orange;
 }

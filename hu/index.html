@@ -19,8 +19,22 @@
             <p>FurZoneFox-nak hívnak és egy barátságos Kemonomimi vagyok a furry fandom-ban.</p>
             <br>
             <p>Tudj meg többet <a href="https://furzonefox.github.io/Furzonefox/hu/bemutatkozás">itt</a>.</p>
-            <a href="https://furzonefox.github.io/Furzonefox/hu/bemutatkozás" role="button">Bemutatkozás</a>
-            <a href="https://furzonefox.github.io/Furzonefox/" role="button">Vissza</a>
+            <select name="website" id="website-select" onchange="var page = document.getElementById('website-select').value
+            if (page === 'back-land') {
+                document.location.href = 'https:/' + '/furzonefox.github.io/Furzonefox'
+            } else {
+                document.location.href = 'https:/' + '/furzonefox.github.io/Furzonefox/hu/' + page
+            }">
+                <option disabled hidden selected>További infó?</option>
+                <optgroup label="Több tőlem">
+                    <option value="bemutatkozás">Bemutatkozás</option>
+                    <option value="művészet">Művészet</option>
+                </optgroup>
+                <optgroup label="Vissza">
+                    <option value="back-land">Vissza a landoló oldalra</option>
+                </optgroup>
+
+            </select>
             <hr>
             <p class="note">Jelenleg dolgozok ezen a weboldalon. Kérlek, légy türelmes amíg én összegyüjtöm a tennivalókat és munkához látok!</p>
         </div>
