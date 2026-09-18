@@ -16,9 +16,9 @@
             <div>
                 <select name="website" id="art-select" onchange="var new_page = document.getElementById('art').value
                 if ('back' in new_page) {
-                    if ('land' in new_page) {
+                    if (new_page === 'back_land') {
                         document.location.href = 'https:/' + '/furzonefox.github.io/Furzonefox/'
-                    } else if ('hu' in new_page) {
+                    } else if (new_page === 'back_hu') {
                         document.location.href = 'https:/' + '/furzonefox.github.io/Furzonefox/hu'
                     }
                 } else {
