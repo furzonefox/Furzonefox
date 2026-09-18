@@ -15,13 +15,11 @@
             <hr>
             <div>
                 <select name="website" id="art-select" onchange="var new_page = document.getElementById('art').value
-                if ('back' in new_page) {
-                    if (new_page === 'back_land') {
+                if (new_page === 'back_land') {
                         document.location.href = 'https:/' + '/furzonefox.github.io/Furzonefox/'
                     } else if (new_page === 'back_hu') {
                         document.location.href = 'https:/' + '/furzonefox.github.io/Furzonefox/hu'
-                    }
-                } else {
+                    } else {
                     document.location.href = 'https:/' + '/furzonefox.github.io/Furzonefox/hu/művészet/' + new_page
                 }">
                     <option disabled selected hidden>Válassz művészeti ágat...</option>
