@@ -12,7 +12,7 @@ div#poem_container {
     display:block;
 }
 div#poem_container > div.poem {
-    display: flex;
+    display: inline-block;
     background-color: wheat;
     border: 1px solid orange;
     border-radius: 15px;
@@ -50,6 +50,7 @@ body#poem > div.poems > p {
 body#poem > div.poems {
     background-color: rgb(247, 219, 166);
     border-radius: 15px;
+    margin: 5px auto 7px auto;
 }
 body#poem > div.poems > h1 {
     text-align: center;
@@ -59,7 +60,7 @@ body#poem > div.poems > p {
     text-align: justify;
 }
 body#poem > div.poems > div.time {
-    background-color: rgb(130, 115, 88);
+    background-color: rgb(204, 174, 117);
     height: 30px;
 }
 body#poem > div.poems > div.time > p {
