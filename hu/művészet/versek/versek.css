@@ -9,7 +9,7 @@ p {
     color: white;
 }
 div#poem_container {
-    display: flexbox;
+    display:block;
 }
 div#poem_container > div.poem {
     display: flex;
