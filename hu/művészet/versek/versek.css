@@ -51,6 +51,7 @@ body#poem > div.poems {
     background-color: rgb(247, 219, 166);
     border-radius: 15px;
     margin: 5px auto 7px auto;
+    width: 600px;;
 }
 body#poem > div.poems > h1 {
     text-align: center;
@@ -60,8 +61,10 @@ body#poem > div.poems > p {
     text-align: justify;
 }
 body#poem > div.poems > div.time {
-    background-color: rgb(204, 174, 117);
+    border-top: 1px rgb(190, 177, 153) solid;
+    background-color: rgb(240, 220, 183);
     height: 30px;
+    border-radius: 15px;
 }
 body#poem > div.poems > div.time > p {
     color: gray;
